@@ -14,7 +14,6 @@ import (
 	"go.mozilla.org/sops/keys"
 	sopsjson "go.mozilla.org/sops/stores/json"
 	"go.mozilla.org/sops/version"
-	yaml "gopkg.in/yaml.v2"
 )
 
 // SopsData is a wrapper around sops data.
@@ -185,7 +184,7 @@ func (s *SopsData) Decrypt() (*SopsData, error) {
 
 	var sd SopsData
 
-	if err := yaml.Unmarshal(decrypted, &sd); err != nil {
+	if err := json.Unmarshal(decrypted, &sd); err != nil {
 		return nil, err
 	}
 
