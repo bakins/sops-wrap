@@ -30,5 +30,5 @@ require (
 	google.golang.org/grpc v1.20.1 // indirect
 	gopkg.in/ini.v1 v1.42.0 // indirect
 	gopkg.in/urfave/cli.v1 v1.20.0 // indirect
-	gopkg.in/yaml.v2 v2.2.2
+	gopkg.in/yaml.v2 v2.2.2 // indirect
 )
