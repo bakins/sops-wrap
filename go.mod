@@ -23,8 +23,7 @@ require (
 	github.com/stretchr/testify v1.3.0
 	go.mozilla.org/gopgagent v0.0.0-20170926210634-4d7ea76ff71a // indirect
 	go.mozilla.org/sops v0.0.0-20190418110155-2edae1d81737
-	golang.org/x/crypto v0.0.0-20190424203555-c05e17bb3b2d // indirect
-	golang.org/x/net v0.0.0-20190424112056-4829fb13d2c6 // indirect
+	golang.org/x/crypto v0.1.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20190402181905-9f3314589c9a // indirect
 	google.golang.org/api v0.4.0 // indirect
 	google.golang.org/grpc v1.20.1 // indirect
